@@ -1,0 +1,56 @@
+.header {
+    background-color: rgb(200, 197, 197);
+}
+.container{
+    margin-top:10% ;
+}
+.btn-todos a,
+.btn-todos a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-todos  {
+    width: 150px;
+    height: 30px;
+    margin-top: 22px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background: #CC99CC;
+    color: #ffffff;
+    border: none;
+
+
+}
+.btn-todos:hover{
+background: #000000;
+
+}
+.baslik {
+    margin: 20px;
+    padding: 20px;
+    background-color: #FF66FF;
+    color: white;
+    display: inline-block;
+}
+
+.baslikTable {
+    background-color: #CC33FF;
+    color: white;
+
+}
+
+.baslikTable h3 {
+    padding: 20px;
+}
+
+
+.btn { margin-left: 10px;}
+
+
+
+

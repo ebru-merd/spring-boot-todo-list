@@ -15,13 +15,14 @@ configurations {
     }
 }
 
-jar {
-  enabled=false
-
-}
 
 repositories {
     mavenCentral()
+}
+
+jar {
+  enabled=false
+
 }
 
 dependencies {

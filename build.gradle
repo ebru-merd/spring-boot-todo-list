@@ -16,8 +16,8 @@ configurations {
 }
 
 jar {
-    baseName = 'todolist'
-    version = '0.0.1'
+  enabled=false
+
 }
 
 repositories {

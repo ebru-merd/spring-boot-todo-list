@@ -22,7 +22,6 @@ repositories {
 
 jar {
   enabled=false
-
 }
 
 

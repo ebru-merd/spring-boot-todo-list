@@ -43,7 +43,7 @@
 						<i class="zmdi zmdi-font"></i>
 					</span>
 
-               <form id="loginform" action="/user/security_login" method="post">
+               <form id="loginform" action="/security_login" method="post">
                 <div class="wrap-input100 validate-input" data-validate = "Kullanıcı Adı Girin">
                     <input class="input100" type="text" name="username" id="username">
                     <span class="focus-input100" data-placeholder="Kullanıcı Adı"></span>

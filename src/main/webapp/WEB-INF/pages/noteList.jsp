@@ -47,8 +47,8 @@
             <tr >
                     <td>${note.title}</td>
                     <td><%=shortFormat.format(date)%><br></td>
-                    <td><a class="btn btn-outline-success" href="getUpdate/${note.id}" role="button">Update</a>
-                        <a class="btn btn-del btn-outline-warning" data-id="${note.id}" role="button">Delete</a>
+                    <td><a class="btn btn-success" href="getUpdate/${note.id}" role="button">Update</a>
+                        <a class="btn btn-del btn-warning" data-id="${note.id}" role="button">Delete</a>
                     </td>
             </tr>
            </c:forEach>

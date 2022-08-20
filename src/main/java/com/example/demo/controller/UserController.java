@@ -110,7 +110,7 @@ public class UserController {
         if (foundUser!=null){
             return new ResponseEntity<>("OK", HttpStatus.OK);
         }
-        return new ResponseEntity<>("ERROR", HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>("ERROR", HttpStatus.OK);
     }
 
 }
